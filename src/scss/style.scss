@@ -1,0 +1,454 @@
+/*---->Reusable Conmonent Area Start<----*/
+/*---->Reusable Conmonent Area End<----*/
+$link-color: #323F73;
+$btn-bg-color1: #323F73;
+$font-color: #fff;
+$font-heading-color: #323F73;
+$submit-btn-bg-color: #FF416C;
+.reusable-btn{
+    background-color: #FFD888;
+    color: $link-color;
+    width: 131px;
+    height: 52px;
+}
+.reusable-icon-with-btn{
+    width: 120px;
+    height: 40px;
+    background-color: #FFD9CC;
+    color: #E95829;
+}
+
+/*---->Navigation Section Start<----*/
+/*---->Navigation Section Start<----*/
+
+/*---->Navigation Section End<----*/
+/*---->Navigation Section End<----*/
+
+/*---->Reusable Conmonent Area Start<----*/
+/*---->Reusable Conmonent Area End<----*/
+
+
+
+
+
+/*---->Header Section Start<----*/
+/*---->Header Section Start<----*/
+.header-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 794px;
+    background: linear-gradient(-180deg , rgba(237,239,245,255) 0%, rgba(255,255,255,255) 100%);
+}
+/*---->Header Section End<----*/
+/*---->Header Section End<----*/
+
+/*---->Navigation Section Start<----*/
+/*---->Navigation Section Start<----*/
+.navbar{
+    .container{
+        .navbar-brand{
+            color: $link-color;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .navbar-nav{
+            .nav-link{
+                color: $link-color;
+            }
+            .nav-btn-style{
+                background-color: $btn-bg-color1;
+                color: $font-color;
+                // width: 96px;
+                // height: 48px;
+            }
+        }
+    }
+}
+
+/*---->Navigation Section End<----*/
+/*---->Navigation Section End<----*/
+
+
+
+/*---->Hero Section Start<----*/
+/*---->Hero Section Start<----*/
+.container{
+    .row{
+        .hero-heading-text{
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 48px;
+            color: $font-heading-color;
+        }
+        .hero-para-text{
+            color: #95AFBA;
+            font-size: 24px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        form{
+            .input-group{
+                width: 80%;
+                height: 50px;
+                margin-top: 30px;
+            }
+            input[type=email]{
+                background: #F5F8FA;
+                border-left: none;
+                height: 50px;
+            }
+            .input-group-text{
+                background: #F5F8FA;
+            }
+            .submit-btn-bg-color{
+                background-color: $submit-btn-bg-color;
+                color: $font-color;
+            }
+            button, span{
+                border-top-right-radius: 12px;
+                border-bottom-right-radius: 12px;
+                border-top-left-radius: 12px;
+                border-bottom-left-radius: 12px;
+                }
+        }
+        .hero-image{
+            width: 100%;
+            height: auto;
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+
+    }
+    .hero-section-fixed{
+        margin-right: 0;
+        margin-left: -10px;
+    }
+}
+
+
+
+/*---->Hero Section End<----*/
+/*---->Hero Section End<----*/
+
+/*---->Icon Section Start<----*/
+/*---->Icon Section Start<----*/
+.container{
+    .margin-icon-section{
+        margin-top: 120px;
+    }
+}
+/*---->Icon Section End<----*/
+/*---->Icon Section End<----*/
+
+/*---->Meet Our Products Section Start<----*/
+/*---->Meet Our Products Section Start<----*/
+.container-fluid{
+    .row{
+        .col-extra-padd-remove{
+            padding: 0;
+            .card-border{
+                border: none;
+            }
+        }
+        .card-border{
+            border: none;
+            padding: 1px;
+            .meet-heading-text{
+                color: $font-heading-color;
+            }
+        }
+        .btn-icon{
+            max-width: 20px;
+            margin-left: -4px;
+        }
+        .learn-btn-text{
+            margin-left: 20px;
+        }
+        .hero-heading-text2{
+            color: $font-heading-color;
+            margin-top: 30px;
+        }
+        hr{
+            width: 92px;
+            height: 1px;
+            background-color: #FFD888;
+        }
+        .meet-para-section{
+            color: #95AFBA;
+        }
+        .fas-icon-color{
+            color: #FFD9CC;
+            padding-right: 5px;
+            margin-bottom: 20px;
+        }
+        .list-border-none{
+            border: none;
+        }
+    }
+}
+/*---->Meet Our Products Section End<----*/
+/*---->Meet Our Products Section End<----*/
+
+
+/*---->Meet Our Products 2nd & 3r Section Start<----*/
+/*---->Meet Our Products 2nd & 3r Section Start<----*/
+.container{
+    .row{
+        .card-border{
+            border: none;
+            padding: 1px;
+            .meet-heading-text{
+                color: $font-heading-color;
+            }
+        }
+        .btn-icon{
+            max-width: 20px;
+            margin-left: -4px;
+        }
+        .learn-btn-text{
+            margin-left: 20px;
+        }
+        .hero-heading-text2{
+            color: $font-heading-color;
+            margin-top: 30px;
+        }
+        hr{
+            width: 92px;
+            height: 1px;
+            background-color: #FFD888;
+        }
+        .meet-para-section{
+            color: #95AFBA;
+        }
+        .fas-icon-color{
+            color: #FFD9CC;
+            padding-right: 5px;
+            margin-bottom: 20px;
+        }
+        .list-border-none{
+            border: none;
+        }
+        .margin-auto-btn{
+            margin-top: 10px;
+        }
+    }
+}
+/*---->Meet Our Products 2nd & 3r Section End<----*/
+/*---->Meet Our Products 2nd & 3r Section End<----*/
+
+/*People Use Our Software Section Start*/
+/*People Use Our Software Section Start*/
+
+.container{
+    .row-bg{
+        background: linear-gradient(-180deg , rgba(237,239,245,255) 0%, rgba(250,250,250,255) 100%);
+        .card{
+            border: none;
+            padding: 3.5rem;
+            .list-group{
+                .list-group-item-padding{
+                    padding: 0.50rem 0.80rem;
+                    background: linear-gradient(-180deg, #f5f6f9 0%, #fafafa 100%);
+                }
+            }
+        }
+    }
+}
+
+/*People Use Our Software Section End*/
+/*People Use Our Software Section End*/
+
+
+
+/*---->Media Queries Section Start<----*/
+/*---->Media Queries Section Start<----*/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container .row form .input-group{
+        width: 100%;
+    }
+    .container-fluid{
+        .col-fixed{
+            max-width: 80%;
+        }
+    }
+    .container-fluid{
+        .row{
+            .card-obj{
+                .card-text-align{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .container-fluid{
+        .margin-auto{
+            margin: auto;
+            .reusable-icon-with-btn, .hero-heading-text2, hr, .meet-para-section, .ul-center, .margin-auto-btn{
+                margin: auto;
+                margin-top: 4px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+    .container{
+        .margin-auto{
+            margin: auto;
+            .reusable-icon-with-btn, .hero-heading-text2, hr, .meet-para-section, .ul-center, .margin-auto-btn{
+                margin: auto;
+                margin-top: 4px;
+            }
+        }
+    }
+    .container{
+        .row-bg{
+            display: none;
+        }
+    }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .container{
+        .margin-icon-section{
+            margin-top: 20px;
+        }
+    }
+    .container-fluid{
+        .row{
+            .card-obj{
+                .card-text-align{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .container-fluid{
+        .margin-auto{
+            margin: auto;
+            .reusable-icon-with-btn, .hero-heading-text2, hr, .meet-para-section, .ul-center, .margin-auto-btn{
+                margin: auto;
+                margin-top: 4px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+    .container{
+        .margin-auto{
+            margin: auto;
+            .reusable-icon-with-btn, .hero-heading-text2, hr, .meet-para-section, .ul-center, .margin-auto-btn{
+                margin: auto;
+                margin-top: 4px;
+            }
+        }
+    }
+    .container{
+        .row{
+            .card{
+                .list-group-item-padding{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .navbar{
+        .container{
+            .navbar-nav{
+                .nav-link{
+                  padding-right: 1rem;
+                  padding-left: 1rem;
+                }
+            }
+        }
+    }
+    .container{
+        .margin-icon-section{
+            margin-top: 100px;
+        }
+    }
+    .container-fluid{
+        .row{
+            .card-obj{
+                .card-text-align{
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .container-fluid{
+        .margin-auto{
+            margin: 0;
+            .reusable-icon-with-btn, .hero-heading-text2, hr, .meet-para-section, .ul-center, .margin-auto-btn{
+                margin: 0;
+                margin-top: 0;
+            }
+        }
+    }
+
+
+    .container{
+        .margin-auto{
+            margin: 0;
+            .reusable-icon-with-btn, .hero-heading-text2, hr, .meet-para-section, .ul-center, .margin-auto-btn{
+                margin: 0;
+                margin-top: 0;
+            }
+        }
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .navbar{
+        .container{
+            .navbar-nav{
+                .nav-link{
+                  padding-right: 2.0rem;
+                  padding-left: 2.0rem;
+                }
+            }
+        }
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .navbar{
+        .container{
+            .navbar-nav{
+                .nav-link{
+                  padding-right: 2.5rem;
+                  padding-left: 2.5rem;
+                }
+            }
+        }
+    }
+  }
+/*---->Media Queries Section End<----*/
+/*---->Media Queries Section End<----*/
