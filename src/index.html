@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/uikit.min.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/settings.png" type="image/x-icon">
@@ -22,7 +22,7 @@
 
     <!--Start Navigation-->
     <!--Start Navigation-->
-    <nav class="navbar navbar-expand-md p-4">
+    <nav class="navbar navbar-expand-md p-4" uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
         <div class="container">
             <a class="navbar-brand" href="index.html">Performance</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,30 +43,48 @@
     <!--End Navigation-->
     <!--End Navigation-->
 
-    <!--Hero Section Start-->
-    <!--Hero Section Start-->
-    <div class="container">
-        <div class="row hero-section-fixed">
-            <div class="col-md-6 mt-4">
-                <h2 class="hero-heading-text">Your Next Performance Management Platform</h2>
-                <p class="lead hero-para-text">Fully Customizable performance management platform that suits your culture. not the other way around</p>
-                <form action="#">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="far fa-envelope"></i>
-                            </span>
-                            </div>
-                        <input type="email" class="form-control" placeholder="Add your email address" id="mail" name="email">
-                        <div class="input-group-append">
-                        <button type="submit" class="btn submit-btn-bg-color">Submit</button>
-                        </div>
-                    </div>
-                </form>
+    <!--Extra Small Device Start-->
+    <!--Extra Small Device Start-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <img class="img-fluid display-none-xs-device" src="./img/Graphics 12@2x.png" alt="Graphics 12@2x">
             </div>
+            <div class="col-6">
+                <img class="img-fluid display-none-xs-device" src="./img/Graphics 11@2x.png" alt="Graphics 11@2x">
+            </div>
+        </div>
+    </div>
+    <!--Extra Small Device End-->
+    <!--Extra Small Device End-->
 
-            <div class="col-md-6">
-                <img class="hero-image" src="./img/hero-image.png" alt="hero image">
+    <!--Hero Section Start-->
+    <!--Hero Section Start-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 custom-padding">
+                <div class="card card-style">
+                    <h2 class="hero-heading-text2 my-4">Your Next Performance Management Platform</h2>
+                        <p class="lead meet-para-section py-3">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                        <form action="#">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="far fa-envelope"></i>
+                                    </span>
+                                    </div>
+                                    <input type="email" class="form-control" placeholder="Add your email address" id="mail" name="email">
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn submit-btn-bg-color">Get Started for free</button>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card card-style">
+                    <img class="hero-img-control img-fluid" src="./img/Hero Image.png" alt="Hero Image">
+                </div>
             </div>
         </div>
     </div>
@@ -77,10 +95,10 @@
     <!--Icon Section Start-->
     <div class="container">
         <div class="row margin-icon-section">
-            <div class="col-md-3 col-6"><img src="./img/logo1.png" alt="Icon 1"></div>
-            <div class="col-md-3 col-6"><img src="./img/logo2.png" alt="Icon 2"></div>
-            <div class="col-md-3 col-6"><img src="./img/logo3.png" alt="Icon 3"></div>
-            <div class="col-md-3 col-6"><img src="./img/logo4.png" alt="Icon 4"></div>
+            <div class="col-md-3 col-6"><img class="img-fluid" src="./img/Logo.png" alt="Icon 1"></div>
+            <div class="col-md-3 col-6"><img class="img-fluid" src="./img/Logo 02.png" alt="Icon 2"></div>
+            <div class="col-md-3 col-6"><img class="img-fluid" src="./img/logo 3.png" alt="Icon 3"></div>
+            <div class="col-md-3 col-6"><img class="img-fluid" src="./img/Logo 04.png" alt="Icon 4"></div>
           </div>
     </div>
     <!--Icon Section End-->
@@ -89,13 +107,13 @@
     <!--Meet Our Products Section Start-->
     <!--Meet Our Products Section Start-->
     <div class="container-fluid">
-        <div class="row mt-4">
+        <div class="row my-4">
             <div class="col-12 col-md-3 col-extra-padd-remove col-fixed">
                 <div class="card card-border">
-                    <img src="./img/product-graphics.png" alt="">
+                    <img class="img-fluid md-d-none" src="./img/Product Graphics.png" alt="Product Graphics">
                 </div>
             </div>
-            <div class="col-12 col-md-9 card-obj">
+            <div class="col-12 col-md-9 card-obj custom-margin">
                 <div class="row">
                     <div class="card card-border card-text-align">
                         <h2 class="meet-heading-text">Meet Our Products</h2>
@@ -105,38 +123,36 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card card-border">
-                            <img class="card-body" src="./img/goal-management.png" alt="">
+                            <img class="card-body img-fluid md-d-none" src="./img/Goal Management.png" alt="Goal Management">
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="card card-border margin-auto">
-                            <button class="btn reusable-icon-with-btn"><span><img class="btn-icon" src="./img/path.png" alt=""></span><span class="learn-btn-text">Agile</span></button>
+                            <button class="btn reusable-icon-with-btn mb-3"><span><img class="btn-icon" src="./img/Tag.png" alt="Path Button Icon"></span><span class="learn-btn-text">Agile</span></button>
                             <h2 class="hero-heading-text2">Goal Management</h2>
                             <hr>
-                            <p class="lead meet-para-section">Our Products work Togather seamlassly to form talent science. start with one or more.</p>
+                            <p class="lead meet-para-section my-3">Our Products work Togather seamlassly to form talent science. start with one or more.</p>
                             <ul class="list-group list-group-horizontal list-group-border ul-center">
                                 <li class="list-group-item list-border-none"><spna><i class="fas fa-circle fas-icon-color"></i></spna>Daily Track</li>
                                 <li class="list-group-item list-border-none"><spna><i class="fas fa-circle fas-icon-color"></i></spna>Road Map</li>
                               </ul>
-                              <button class="btn reusable-btn margin-auto-btn">Learn more</button>
+                              <button class="btn reusable-btn margin-auto-btn my-4">Learn more</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <!--Meet Our Products Section end-->
     <!--Meet Our Products Section end-->
 
     <!--Meet Our Products 2nd Section Start-->
     <!--Meet Our Products 2nd Section Start-->
-    <div class="container">
+    <div class="container mt-4">
         <div class="row mt-4">
-            <div class="col-12 col-md-6">
+            <div class="col-md-6">
                 <div class="card card-border margin-auto">
-                    <button class="btn reusable-icon-with-btn"><span><img class="btn-icon" src="./img/icon-microwave.png" alt=""></span><span class="learn-btn-text">Remote</span></button>
+                    <button class="btn reusable-icon-with-btn my-4"><span><img class="btn-icon" src="./img/icons01.png" alt="Microwave Icon"></span><span class="learn-btn-text">Remote</span></button>
                     <h2 class="hero-heading-text2">Remote Tool</h2>
                     <hr>
                     <p class="lead meet-para-section">Our Products work Togather seamlassly to form talent science. start with one or more.</p>
@@ -144,12 +160,12 @@
                         <li class="list-group-item list-border-none"><spna><i class="fas fa-circle fas-icon-color"></i></spna>Remote Access</li>
                         <li class="list-group-item list-border-none"><spna><i class="fas fa-circle fas-icon-color"></i></spna>Work Anytime</li>
                       </ul>
-                      <button class="btn reusable-btn margin-auto-btn">Learn more</button>
+                      <button class="btn reusable-btn margin-auto-btn my-3">Learn more</button>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-md-6">
                 <div class="card card-border">
-                    <img class="card-body" src="./img/remote-tool-graphics.png" alt="">
+                    <img class="card-body img-fluid" src="./img/Remote Tool Graphics.png" alt="Remote Tool Graphics">
                 </div>
             </div>
         </div>
@@ -161,14 +177,14 @@
     <!--Meet Our Products 3nd Section Start-->
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-md-6">
                 <div class="card card-border">
-                    <img class="card-body" src="./img/graphics04.png" alt="">
+                    <img class="card-body img-fluid" src="./img/Graphics 04.png" alt="Graphics 4">
                 </div>
             </div>
-            <div class="col-12 col-md-6 mt-4">
+            <div class="col-md-6 mt-4">
                 <div class="card card-border margin-auto">
-                    <button class="btn reusable-icon-with-btn"><span><img class="btn-icon" src="./img/search.png" alt=""></span><span class="learn-btn-text">Review</span></button>
+                    <button class="btn reusable-icon-with-btn"><span><img class="btn-icon" src="./img/search.png" alt="search Icon"></span><span class="learn-btn-text">Review</span></button>
                     <h2 class="hero-heading-text2">Performance Review</h2>
                     <hr>
                     <p class="lead meet-para-section">Our Products work Togather seamlassly to form talent science. start with one or more.</p>
@@ -188,31 +204,298 @@
     <!--People Use Our Software Section Start-->
     <div class="container">
         <div class="row row-bg">
-            <div class="col-12 col-md-6">
+            <div class="col-md-6">
                 <div class="card row-bg">
                     <h2 class="hero-heading-text2">People use our Software and counting.</h2>
                     <p class="lead meet-para-section">Fully Customizable performance management platform that suits your culture. not the other way around</p>
                     <ul class="list-group list-group-horizontal list-group-border">
-                        <li class="list-group-item list-border-none one list-group-item-padding"><img src="./img/one.png" alt=""></li>
-                        <li class="list-group-item list-border-none two list-group-item-padding"><img src="./img/two.png" alt=""></li>
-                        <li class="list-group-item list-border-none three list-group-item-padding"><img src="./img/three.png" alt=""></li>
-                        <li class="list-group-item list-border-none four list-group-item-padding"><img src="./img/four.png" alt=""></li>
+                        <li class="list-group-item list-border-none one list-group-item-padding"><img class="img-fluid"src="./img/one.png" alt="One"></li>
+                        <li class="list-group-item list-border-none two list-group-item-padding"><img class="img-fluid"src="./img/two.png" alt="Two"></li>
+                        <li class="list-group-item list-border-none three list-group-item-padding"><img class="img-fluid"src="./img/three.png" alt="Three"></li>
+                        <li class="list-group-item list-border-none four list-group-item-padding"><img class="img-fluid"src="./img/four.png" alt="Four"></li>
                       </ul>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
-                <div class="card row-bg">
-                    <img src="./img/graphic05.png" alt="">
+            <div class="col-md-6 xs-d-none">
+                <div class="card row-bg mt-5">
+                    <img class="img-fluid" src="./img/Graphics 05.png" alt="Graphics 5">
                 </div>
             </div>
         </div>
     </div>
     <!--People Use Our Software Section End-->
     <!--People Use Our Software Section End-->
+
+
+    <!--FAQ Section Start-->
+    <!--FAQ Section Start-->
+
+
+    <div class="container-fluid mt-4">
+        <div class="row custom-display-none" style="margin-top: 140px;">
+            <div class="col-md-8">
+                <div class="row custom-ml-auto">
+                    <h2 class="hero-heading-text2">Frequently Asked Questions</h2>
+                    <p class="lead meet-para-section">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                </div>
+                <div class="row">
+                    <div class="col-3 d-sm-none">
+                        <ul class="list-group" style="margin-top: 40px;">
+                            <li class="list-group-item border-none"><span><img src="./img/Group 7.png" alt="Group 7"></span><span class="li-item-text1">Products</span></li>
+                            <li class="list-group-item border-none"><span><img src="./img/Group 3.png" alt="Group 3"></span><span class="li-item-text2">Subscription</span></li>
+                            <li class="list-group-item border-none"><span><img src="./img/Customer.png" alt=""></span><span class="li-item-text3">Customer</span></li>
+                            <li class="list-group-item border-none"><span><img src="./img/Data Planas.png" alt=""></span><span class="li-item-text4">Data Planas</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-9 ml-auto">
+                        <ul class="list-group">
+                            <li class="list-group-item border-none border-left-line">
+                                <h4 class="hero-heading-text2 text-align-left">Customizable performance management platform</h4>
+                                <p class="meet-para-section text-align-left para-margin-top">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                            </li>
+                            <li class="list-group-item border-none border-left-line">
+                                <h4 class="hero-heading-text2 text-align-left">Customizable performance management platform</h4>
+                                <p class="meet-para-section text-align-left para-margin-top">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                            </li>
+                            <li class="list-group-item border-none border-left-line">
+                                <h4 class="hero-heading-text2 text-align-left">Customizable performance management platform</h4>
+                                <p class="meet-para-section text-align-left para-margin-top">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-fixed-margin">
+                <div class="card border-none">
+                    <img class="side-img-faq img-fluid mt-4 d-sm-none" src="./img/Graphics 07.png" alt="Graphics 7">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FAQ Section End-->
+    <!--FAQ Section End-->
+
+    <!--Other Section One Start-->
+    <!--Other Section One Start-->
+    <div class="container display-none-md">
+        <div class="row" style="margin-top: 140px;">
+            <div class="col-12">
+                <div class="row row-bg-gray">
+                    <div class="card border-none">
+                        <button class="btn reusable-icon-with-btn btn-width-lg"><span><img src="./img/Group 24.png" alt="Group 24"></span> What people say’s</button>
+                        <h3 class="hero-heading-text2">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</h3>
+                    </div>
+                </div>
+                <div class="row row-m-fixed">
+                    <div class="col-6 card-body-bg">
+                        <div class="card card-fixed">
+                            <span>
+                                <img class="img-fluid" src="./img/07 Quotes ❝.png" alt="07 Quotes">
+                            </span>
+                            <h2 class="hero-heding-text2">Boost in Production</h3>
+                        </div>
+                    </div>
+                    <div class="col-6 col-bg-fixed">
+                        <div class="row row-fixed-img">
+                            <div class="card" style="border: none;">
+                                <img class="img-fluid" src="./img/Graphics 08.png" alt="Graphics 08">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Other Section One End-->
+    <!--Other Section One End-->
+
+    <!--Other Section Two Start-->
+    <!--Other Section Two Start-->
+    <div class="container">
+        <div class="row" style="margin-top: 140px;">
+            <div class="col-12 col-md-6">
+                <div class="card" style="border: none;">
+                    <h2 class="hero-heading-text2">Download Performance
+                        Management book for free.</h2>
+                        <p class="lead meet-para-section">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                        <form action="#">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="far fa-envelope"></i>
+                                    </span>
+                                    </div>
+                                <input type="email" class="form-control" placeholder="Add your email address" id="mail" name="email">
+                                <div class="input-group-append">
+                                <button type="submit" class="btn submit-btn-bg-color">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="lead meet-para-section py-2">Everyone gets something special. Sign up to be everyone. :P</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card" style="border: none; margin-top: -30px;">
+                    <img class="img-fluid show-display" src="./img/Graphics 09.png" alt="Graphics 09">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Other Section Two End-->
+    <!--Other Section Two End-->
+
+    <!--Blog & Podcast Section Start-->
+    <!--Blog & Podcast Section Start-->
+    <div class="container-fluid mt-4 display-none-all">
+        <div class="row" style="margin-top: 140px; margin-bottom: 400px;">
+            <div class="col-12 col-md-8">
+                <div class="row mx-auto">
+                    <h2 class="hero-heading-text2 py-3">Blog and Podcast</h2>
+                    <p class="lead meet-para-section py-3">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card border-none">
+                            <img class="img-fluid" src="./img/Group 28.png" alt="Group 28">
+                            <div class="card-body">
+                                <h4 class="hero-heading-text4">Customizable performance management platform</h4>
+                                <p class="lead hero-para-text4">Fully Customizable performance management platform that suits...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-none" style="margin-top: 10rem;">
+                            <div class="card-title">
+                                <span>
+                                    <button class="btn-item-style">&lt;</button>
+                                    <button class="btn-item-style">&gt;</button>
+                                </span>
+                            </div>
+                            <img class="img-fluid" src="./img/Group 28 Copy.png" alt="Group 28 Copy">
+                            <div class="card-body">
+                                <h4 class="hero-heading-text4">Customizable performance management platform</h4>
+                                <p class="lead hero-para-text4">Fully Customizable performance management platform that suits...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-fixed-margin" style="margin-top: 60px;">
+                <div class="card border-none">
+                    <img class="img-fluid side-img-faq" src="./img/Graphics 10.png" alt="Graphics 10">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Blog & Podcast Section End-->
+    <!--Blog & Podcast Section End-->
+
+    <!--Footer Section Start-->
+    <!--Footer Section Start-->
+<div style="background-color: #EDEFF5;">
+    <div class="container display-none-all">
+        <div class="row" style="margin-top: 10rem;">
+            <div class="col-6">
+                <div class="row fixed-width">
+                    <h2 class="hero-heading-text2">Performance</h2>
+                    <p class="lead meet-para-section">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                </div>
+                <div class="row mt-4 mb-5">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item list-group-item-fixed">Enquiries</li>
+                        <li class="list-group-item list-group-item-fixed">Contact No.</li>
+                    </ul>
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item list-group-item-fixed list-text-color">ux.rudrisha@gmail.com</li>
+                        <li class="list-group-item list-group-item-fixed list-text-color" style="margin-left: 60px;">00000-000-00</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <nav class="navbar navbar-expand-sm navbar-padding-none">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link link-color" href="#">Product Tour</a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link link-color" href="#">Customer</a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link link-color" href="#">About us</a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link link-color" href="#">Help</a>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="row mt-5">
+                    <p class="copyright-para-section">&copy;  2020 - Performance</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="container">
+                            <div class="card border-none" style="margin-top: -250px;">
+                                <div class="card-title card-title-padding">
+                                    <h2 class="hero-heading-text2">Get Started in Minute</h2>
+                                    <p class="lead meet-para-section">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                                </div>
+                                <div class="card-body">
+                                    <form action="#">
+                                        <input class="form-control" type="email" placeholder="Email address" style="background-color: #F5F8FA; border: none; margin-bottom: 1.5rem;">
+                                        <textarea class="form-control textarea-style" name="message" id="" cols="15" rows="5" placeholder="Message"></textarea>
+                                        <button class="btn contact-btn-style">Contact us</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn"><span><img class="img-control" src="./img/Chat box.png" alt="Chat Box"></span></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container p-4">
+                        <h2 class="hero-heading-text2">Cheers!</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container p-4">
+                        <nav class="navbar navbar-expand-sm navbar-padding-none">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item nav-item-style">
+                                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                              </li>
+                              <li class="nav-item px-2 nav-item-style">
+                                <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                              </li>
+                              <li class="nav-item px-2 nav-item-style">
+                                <a class="nav-link" href="#"><i class="fas fa-square"></i></a>
+                              </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <img class="img-control" src="./img/Group.png" alt="Group">
+    </div>
+</div>
+    <!--Footer Section End-->
+    <!--Footer Section End-->
     
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script> -->
 </body>
 </html>
